@@ -1,8 +1,40 @@
+@import "../../global.scss";
+
 .topbar {
-  background-color: black;
+  background-color: $ebony;
+  overflow: hidden;
   height: 8rem;
   width: 100vw;
-  color: white;
+  color: $black-squeeze;
   position: fixed;
   z-index: 2;
+  .wrapper {
+    padding: 1rem 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .left {
+      .logo {
+        .logo-img {
+          object-fit: contain;
+          height: 6rem;
+          margin: auto;
+          border-radius: 50%;
+        }
+      }
+    }
+    .center {
+      .description {
+        text-align: center;
+        font-size: 1.6rem;
+        font-family: "Josefin Sans", sans-serif;
+        font-weight: 400;
+      }
+    }
+    .right {
+      .menu {
+        font-size: 4rem;
+      }
+    }
+  }
 }
