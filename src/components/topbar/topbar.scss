@@ -1,13 +1,14 @@
 @import "../../global.scss";
 
 .topbar {
-  background-color: $ebony;
+  background-color: $scorpion;
   overflow: hidden;
   height: 8rem;
   width: 100vw;
   color: $black-squeeze;
   position: fixed;
   z-index: 2;
+  transition: all 1s ease;
   .wrapper {
     padding: 1rem 3rem;
     display: flex;
@@ -35,6 +36,17 @@
       .menu {
         font-size: 4rem;
       }
+      .menu:hover {
+        cursor: pointer;
+        color: $mongoose;
+      }
+    }
+  }
+  &.active {
+    background-color: $black-squeeze;
+    color: $mongoose;
+    .menu {
+      color: $mongoose;
     }
   }
 }

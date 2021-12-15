@@ -1,3 +1,7 @@
+@import "../../global.scss";
 .intro {
-  background-color: pink;
+  transition: all 1s ease;
+  &.active {
+    background-color: $scorpion;
+  }
 }

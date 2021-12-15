@@ -1,9 +1,10 @@
+@import "./global.scss";
 .app {
   height: 100vh;
   .sections {
     height: calc(100vh - 8rem);
     width: 100%;
-    background-color: yellow;
+    background-color: $black-squeeze;
     position: relative;
     top: 8rem;
     scroll-behavior: smooth;
