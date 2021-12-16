@@ -26,6 +26,9 @@
         padding: 6rem;
         font-size: 1.6rem;
         line-height: 2rem;
+        strong {
+          font-size: 1.6rem;
+        }
       }
       .intro-list {
         padding-left: 6rem;
@@ -38,7 +41,7 @@
         align-items: flex-start;
         flex-direction: column;
         justify-content: center;
-        padding: 6rem;
+        padding: 1rem 6rem;
         li {
           align-items: start;
           font-size: 1.6rem;
@@ -49,11 +52,14 @@
         color: $mongoose;
         font-size: 2rem;
         vertical-align: text-top;
-        padding-right: 2rem;
+        margin-right: 1rem;
       }
     }
   }
   &.active {
     background-color: $scorpion;
+    .section-title {
+      color: $mongoose;
+    }
   }
 }

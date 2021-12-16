@@ -31,7 +31,7 @@ export default function Intro({ menuOpen, setMenuOpen }) {
         More than 15 <br />
         years of expertise <br />
         with restaurants <br />
-        and kitchen management
+        and kitchen management <br />
       </p>
     </div>
   );

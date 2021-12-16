@@ -21,10 +21,11 @@ export default function Portfolio({ menuOpen, setMenuOpen }) {
             <br /> To build a successful restaurant you need to focus first of
             all on the structure.
             <br />
-            Optimize the space to make work operations easier, faster, have
-            perfect control over safety systems.
+            <strong>Optimize</strong> the space to make work operations{" "}
+            <strong>easier, faster, have perfect control</strong> over safety
+            systems.
             <br />
-            The less you waste, the more you earn.
+            <strong>The less you waste, the more you earn.</strong>
             <br />
           </p>
           <p className="intro-list">

@@ -1,2 +1,42 @@
+@import "../../global.scss";
 .services {
+  position: relative;
+  .container {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: fit-content;
+    display: grid;
+    grid-gap: 3rem;
+    grid-template-columns: repeat(3, 1fr);
+    .service {
+      width: 20rem;
+      height: 20rem;
+      border-radius: 50%;
+      border: 2px solid $mongoose;
+      position: relative;
+      .service-name {
+        position: absolute;
+        text-align: center;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 1.6rem;
+      }
+    }
+    .service:hover {
+      background-color: $scorpion;
+      border: 4px solid $mongoose;
+      .service-name {
+        color: $black-squeeze;
+      }
+    }
+  }
+  &.active {
+    background-color: $scorpion;
+    .section-title {
+      color: $mongoose;
+    }
+  }
 }
