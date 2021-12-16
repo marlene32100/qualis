@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 .App {
   text-align: center;
@@ -14,4 +15,14 @@ h1 {
 }
 p {
   font-size: 1.4rem;
+}
+.section-title {
+  font-size: 3rem;
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+  text-align: center;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #565656;
 }

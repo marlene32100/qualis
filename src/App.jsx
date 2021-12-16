@@ -8,6 +8,7 @@ import Intro from "./components/intro/Intro";
 import Portfolio from "./components/portfolio/Portfolio";
 import Services from "./components/services/Services";
 import Testimonials from "./components/testimonials/Testimonials";
+import Phone from "./components/phone/Phone";
 
 import "./App.css";
 import "./app.scss";
@@ -26,11 +27,13 @@ function App() {
 
       <div className="sections">
         <Intro menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
-        <Portfolio />
+        <Portfolio menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
         <Services />
         <Testimonials />
         <Contact />
       </div>
+
+      <Phone />
     </div>
   );
 }

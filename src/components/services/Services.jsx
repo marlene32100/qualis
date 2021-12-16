@@ -4,7 +4,7 @@ import "./services.scss";
 export default function Services() {
   return (
     <div className="services" id="services">
-      <p>This is the services area</p>
+      <h2 className="section-title">Services</h2>
     </div>
   );
 }

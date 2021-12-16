@@ -16,7 +16,7 @@ export default function Topbar({ menuOpen, setMenuOpen }) {
         </div>
         <div className="center">
           <h1>Qualis Italica</h1>
-          <h2 className="description">Kitchen Project Management</h2>
+          <h2 className="description">Restaurant Project Management</h2>
         </div>
         <div className="right">
           <DehazeIcon className="menu" onClick={() => setMenuOpen(!menuOpen)} />

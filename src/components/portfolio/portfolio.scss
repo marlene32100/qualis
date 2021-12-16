@@ -1,2 +1,59 @@
+@import "../../global.scss";
 .portfolio {
+  transition: all 1s ease;
+  .section-title {
+    color: $scorpion;
+  }
+  .container {
+    display: flex;
+    height: 70%;
+    width: 100%;
+    .left {
+      flex: 0.5;
+      background-color: $ebony;
+      overflow: hidden;
+      .kitchen-image {
+        object-fit: contain;
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+      }
+    }
+    .right {
+      flex: 0.5;
+      overflow: hidden;
+      .intro-description {
+        padding: 6rem;
+        font-size: 1.6rem;
+        line-height: 2rem;
+      }
+      .intro-list {
+        padding-left: 6rem;
+        font-size: 1.6rem;
+        line-height: 2rem;
+      }
+      ul {
+        width: 100%;
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+        justify-content: center;
+        padding: 6rem;
+        li {
+          align-items: start;
+          font-size: 1.6rem;
+          line-height: 4rem;
+        }
+      }
+      .bookmark {
+        color: $mongoose;
+        font-size: 2rem;
+        vertical-align: text-top;
+        padding-right: 2rem;
+      }
+    }
+  }
+  &.active {
+    background-color: $scorpion;
+  }
 }

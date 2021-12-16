@@ -1,0 +1,26 @@
+@import "../../global.scss";
+
+.phone-container {
+  position: absolute;
+  bottom: 3rem;
+  right: 3rem;
+  height: 6rem;
+  width: 6rem;
+  border-radius: 50%;
+  background-color: $mongoose;
+  overflow: hidden;
+  z-index: 9999;
+  .phone-icon {
+    box-sizing: content-box;
+    padding: 1rem;
+    font-size: 4rem;
+    color: $black-squeeze;
+  }
+}
+.phone-container:hover {
+  background-color: $scorpion;
+  cursor: pointer;
+}
+.phone-icon:hover {
+  color: $mongoose;
+}

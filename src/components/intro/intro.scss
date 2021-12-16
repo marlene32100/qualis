@@ -1,7 +1,66 @@
 @import "../../global.scss";
 .intro {
   transition: all 1s ease;
+  position: relative;
+  .intro-text {
+    font-family: "Josefin Sans", serif;
+    font-size: 8rem;
+    text-transform: uppercase;
+    color: $mongoose;
+    position: absolute;
+    bottom: 3rem;
+    left: 3rem;
+  }
+  .timeline {
+    position: relative;
+    width: 60%;
+    margin-top: 10rem;
+    margin-right: 3rem;
+    margin-left: auto;
+    display: flex;
+    overflow: visible;
+  }
+  .timeline:after {
+    content: "";
+    background-color: $scorpion;
+    height: 0.2rem;
+    position: absolute;
+    bottom: -0.5rem;
+    width: 100%;
+  }
+  .timeline-item {
+    position: relative;
+    flex: 4;
+    padding-left: 2rem;
+    h3 {
+      display: inline;
+      padding-left: 1rem;
+      font-size: 2rem;
+      color: $scorpion;
+    }
+    a {
+      text-decoration: none;
+    }
+  }
+  .timeline-icon {
+    color: $mongoose;
+    font-size: 2rem;
+    display: inline;
+    vertical-align: bottom;
+  }
+  .timeline-item:hover {
+    cursor: pointer;
+    .timeline-icon {
+      color: $scorpion;
+    }
+    h3 {
+      color: $mongoose;
+    }
+  }
   &.active {
     background-color: $scorpion;
+    .timeline-item h3 {
+      color: $black-squeeze;
+    }
   }
 }
