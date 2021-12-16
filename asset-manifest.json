@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/qualis/static/css/main.0d4ae9c6.css",
+    "main.js": "/qualis/static/js/main.a2dfa7a1.js",
+    "static/js/787.7b97a547.chunk.js": "/qualis/static/js/787.7b97a547.chunk.js",
+    "static/media/kitchen.jpg": "/qualis/static/media/kitchen.2ee8e03a44096bd5467d.jpg",
+    "static/media/qualis_logo.jpg": "/qualis/static/media/qualis_logo.08a8fbbc18def3dfa8e4.jpg",
+    "index.html": "/qualis/index.html",
+    "main.0d4ae9c6.css.map": "/qualis/static/css/main.0d4ae9c6.css.map",
+    "main.a2dfa7a1.js.map": "/qualis/static/js/main.a2dfa7a1.js.map",
+    "787.7b97a547.chunk.js.map": "/qualis/static/js/787.7b97a547.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0d4ae9c6.css",
+    "static/js/main.a2dfa7a1.js"
+  ]
+}
