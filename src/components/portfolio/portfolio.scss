@@ -20,18 +20,21 @@
     }
     .bottom {
       flex: 0.5;
+      overflow: hidden;
       .intro-description {
+        color: $scorpion;
         padding: 3rem 1rem 1rem;
-        font-size: 1.6rem;
+        font-size: 1.4rem;
         line-height: 2rem;
         strong {
-          font-size: 1.6rem;
+          font-size: 1.4rem;
         }
       }
       .intro-list {
         padding-left: 1rem;
-        font-size: 1.6rem;
+        font-size: 1.4rem;
         line-height: 2rem;
+        color: $scorpion;
       }
       ul {
         width: 100%;
@@ -42,8 +45,9 @@
         padding: 1rem 6rem;
         li {
           align-items: start;
-          font-size: 1.6rem;
+          font-size: 1.4rem;
           line-height: 2rem;
+          color: $scorpion;
         }
       }
       .bookmark {

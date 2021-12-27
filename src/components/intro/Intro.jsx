@@ -3,6 +3,7 @@ import MediaQuery from "react-responsive";
 import ArchitectureIcon from "@mui/icons-material/Architecture";
 import BuildIcon from "@mui/icons-material/Build";
 import MonetizationOnIcon from "@mui/icons-material/MonetizationOn";
+import WorkspacePremiumIcon from "@mui/icons-material/WorkspacePremium";
 import "./intro.scss";
 
 export default function Intro({ menuOpen, setMenuOpen }) {
@@ -56,6 +57,16 @@ export default function Intro({ menuOpen, setMenuOpen }) {
               <h3>Succeed</h3>
             </a>
           </div>
+        </div>
+        <div className="cta-small">
+          <WorkspacePremiumIcon className="premium-icon" />
+          <p className="cta-small-text">
+            Let Qualis Italica plan for you a fully functional kitchen space in
+            your restaurant.
+            <br />
+            <br />
+            Destined to win!
+          </p>
         </div>
         <p className="intro-text-small">
           More than 15 <br />

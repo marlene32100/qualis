@@ -17,7 +17,7 @@
     text-transform: uppercase;
     color: $mongoose;
     position: absolute;
-    bottom: 3rem;
+    bottom: 10%;
     left: 5%;
   }
   .timeline {
@@ -89,6 +89,26 @@
       color: $mongoose;
     }
   }
+  .cta-small {
+    position: absolute;
+    top: 30%;
+    left: 1rem;
+    display: flex;
+    .premium-icon {
+      color: $mongoose;
+      font-size: 10rem;
+      display: inline;
+      vertical-align: bottom;
+      flex: 0.3;
+    }
+    .cta-small-text {
+      flex: 0.7;
+      font-family: "Cardo", serif;
+      font-size: 1.4rem;
+      color: $scorpion;
+    }
+  }
+
   &.active {
     background-color: $scorpion;
     .timeline-item h3 {
