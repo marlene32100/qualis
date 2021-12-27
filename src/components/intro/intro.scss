@@ -11,6 +11,15 @@
     bottom: 3rem;
     left: 3rem;
   }
+  .intro-text-small {
+    font-family: "Josefin Sans", serif;
+    font-size: 3rem;
+    text-transform: uppercase;
+    color: $mongoose;
+    position: absolute;
+    bottom: 3rem;
+    left: 5%;
+  }
   .timeline {
     position: relative;
     width: 60%;
@@ -20,7 +29,17 @@
     display: flex;
     overflow: visible;
   }
-  .timeline:after {
+  .timeline-small {
+    position: relative;
+    width: 90%;
+    margin-top: 10rem;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    overflow: visible;
+  }
+  .timeline:after,
+  .timeline-small:after {
     content: "";
     background-color: $scorpion;
     height: 0.2rem;
@@ -32,6 +51,19 @@
     position: relative;
     flex: 4;
     padding-left: 2rem;
+    h3 {
+      display: inline;
+      padding-left: 1rem;
+      font-size: 2rem;
+      color: $scorpion;
+    }
+    a {
+      text-decoration: none;
+    }
+  }
+  .timeline-item-small {
+    position: relative;
+    flex: 4;
     h3 {
       display: inline;
       padding-left: 1rem;
