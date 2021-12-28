@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/qualis/static/css/main.27f1af2f.css",
-    "main.js": "/qualis/static/js/main.51f1c9cc.js",
+    "main.css": "/qualis/static/css/main.ecb309be.css",
+    "main.js": "/qualis/static/js/main.f8b6b342.js",
     "static/js/787.7b97a547.chunk.js": "/qualis/static/js/787.7b97a547.chunk.js",
     "static/media/service.jpeg": "/qualis/static/media/service.1cfed8739a1f44b35706.jpeg",
     "static/media/build.jpeg": "/qualis/static/media/build.a861c6f802fa80900fa5.jpeg",
@@ -11,12 +11,12 @@
     "static/media/kitchen_small.jpg": "/qualis/static/media/kitchen_small.bc5d15b163889a11056f.jpg",
     "static/media/qualis_logo.jpg": "/qualis/static/media/qualis_logo.08a8fbbc18def3dfa8e4.jpg",
     "index.html": "/qualis/index.html",
-    "main.27f1af2f.css.map": "/qualis/static/css/main.27f1af2f.css.map",
-    "main.51f1c9cc.js.map": "/qualis/static/js/main.51f1c9cc.js.map",
+    "main.ecb309be.css.map": "/qualis/static/css/main.ecb309be.css.map",
+    "main.f8b6b342.js.map": "/qualis/static/js/main.f8b6b342.js.map",
     "787.7b97a547.chunk.js.map": "/qualis/static/js/787.7b97a547.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.27f1af2f.css",
-    "static/js/main.51f1c9cc.js"
+    "static/css/main.ecb309be.css",
+    "static/js/main.f8b6b342.js"
   ]
 }
