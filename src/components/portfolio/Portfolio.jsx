@@ -2,6 +2,7 @@ import React from "react";
 import MediaQuery from "react-responsive";
 import BookmarkAddedIcon from "@mui/icons-material/BookmarkAdded";
 import kitchen from "../../media/kitchen.jpg";
+import kitchenSmall from "../../media/kitchen_small.jpg";
 import "./portfolio.scss";
 
 export default function Portfolio({ menuOpen, setMenuOpen }) {
@@ -54,7 +55,7 @@ export default function Portfolio({ menuOpen, setMenuOpen }) {
         <div className="container-small">
           <div className="top">
             <img
-              src={kitchen}
+              src={kitchenSmall}
               alt="Image of chefs in a kitchen restaurant while working"
               className="kitchen-image-small"
             />
