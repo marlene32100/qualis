@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/qualis/static/css/main.ecb309be.css",
-    "main.js": "/qualis/static/js/main.f8b6b342.js",
-    "static/js/787.7b97a547.chunk.js": "/qualis/static/js/787.7b97a547.chunk.js",
-    "static/media/service.jpeg": "/qualis/static/media/service.1cfed8739a1f44b35706.jpeg",
-    "static/media/build.jpeg": "/qualis/static/media/build.a861c6f802fa80900fa5.jpeg",
-    "static/media/coach.jpeg": "/qualis/static/media/coach.71bb99b70e71429838eb.jpeg",
-    "static/media/plan.jpeg": "/qualis/static/media/plan.ef36fed95bc5f3cd579f.jpeg",
-    "static/media/kitchen.jpg": "/qualis/static/media/kitchen.2ee8e03a44096bd5467d.jpg",
-    "static/media/kitchen_small.jpg": "/qualis/static/media/kitchen_small.bc5d15b163889a11056f.jpg",
-    "static/media/qualis_logo.jpg": "/qualis/static/media/qualis_logo.08a8fbbc18def3dfa8e4.jpg",
-    "index.html": "/qualis/index.html",
-    "main.ecb309be.css.map": "/qualis/static/css/main.ecb309be.css.map",
-    "main.f8b6b342.js.map": "/qualis/static/js/main.f8b6b342.js.map",
-    "787.7b97a547.chunk.js.map": "/qualis/static/js/787.7b97a547.chunk.js.map"
+    "main.css": "/static/css/main.ecb309be.css",
+    "main.js": "/static/js/main.43655d76.js",
+    "static/js/787.7b97a547.chunk.js": "/static/js/787.7b97a547.chunk.js",
+    "static/media/service.jpeg": "/static/media/service.1cfed8739a1f44b35706.jpeg",
+    "static/media/build.jpeg": "/static/media/build.a861c6f802fa80900fa5.jpeg",
+    "static/media/coach.jpeg": "/static/media/coach.71bb99b70e71429838eb.jpeg",
+    "static/media/plan.jpeg": "/static/media/plan.ef36fed95bc5f3cd579f.jpeg",
+    "static/media/kitchen.jpg": "/static/media/kitchen.2ee8e03a44096bd5467d.jpg",
+    "static/media/kitchen_small.jpg": "/static/media/kitchen_small.bc5d15b163889a11056f.jpg",
+    "static/media/qualis_logo.jpg": "/static/media/qualis_logo.08a8fbbc18def3dfa8e4.jpg",
+    "index.html": "/index.html",
+    "main.ecb309be.css.map": "/static/css/main.ecb309be.css.map",
+    "main.43655d76.js.map": "/static/js/main.43655d76.js.map",
+    "787.7b97a547.chunk.js.map": "/static/js/787.7b97a547.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ecb309be.css",
-    "static/js/main.f8b6b342.js"
+    "static/js/main.43655d76.js"
   ]
 }
