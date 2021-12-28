@@ -3,7 +3,7 @@
 .showcase {
   transition: all 1s ease-out;
   .slider {
-    height: 70%;
+    height: 80%;
     display: flex;
     position: absolute;
     transition: all 1s ease-out;
@@ -57,12 +57,24 @@
               color: $black-squeeze;
             }
             span {
-              padding-top: 3rem;
-              font-size: 12px;
+              margin-top: 3rem;
+              padding: 1.6rem 3.2rem;
+              border: 1px solid $black-squeeze;
+              width: fit-content;
+            }
+            span a {
+              font-size: 14px;
               font-weight: 600;
-              text-decoration: underline;
+              text-decoration: none;
               color: $black-squeeze;
               cursor: pointer;
+            }
+            span:hover {
+              border: 2px solid $mongoose;
+              background-color: $black-squeeze;
+              a {
+                color: $mongoose;
+              }
             }
           }
         }
@@ -141,12 +153,24 @@
             color: $black-squeeze;
           }
           span {
-            padding-top: 1rem;
+            margin-top: 1rem;
+            padding: 1.6rem 3.2rem;
+            border: 1px solid $black-squeeze;
+            width: fit-content;
+          }
+          span a {
             font-size: 12px;
             font-weight: 600;
-            text-decoration: underline;
+            text-decoration: none;
             color: $black-squeeze;
             cursor: pointer;
+          }
+          span:hover {
+            border: 2px solid $mongoose;
+            background-color: $black-squeeze;
+            a {
+              color: $mongoose;
+            }
           }
         }
       }

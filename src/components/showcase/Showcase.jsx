@@ -68,7 +68,9 @@ export default function Showcase({ menuOpen, setMenuOpen }) {
                     <div className="imgContainer">{d.icon}</div>
                     <h2>{d.title}</h2>
                     <p>{d.desc}</p>
-                    <span>Projects</span>
+                    <span>
+                      <a href="#contact">Book Now</a>
+                    </span>
                   </div>
                 </div>
                 <div className="right">
@@ -102,7 +104,9 @@ export default function Showcase({ menuOpen, setMenuOpen }) {
                     <div className="imgContainer">{d.icon}</div>
                     <h2>{d.title}</h2>
                     <p>{d.desc}</p>
-                    <span>Projects</span>
+                    <span>
+                      <a href="#contact">Book Now</a>
+                    </span>
                   </div>
                 </div>
               </div>

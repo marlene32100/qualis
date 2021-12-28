@@ -7,8 +7,20 @@
     color: $scorpion;
     position: absolute;
     top: 12rem;
-    margin-right: 3rem;
-    margin-left: 3rem;
+    left: 50%;
+    transform: translateX(-50%);
+    width: fit-content;
+    text-align: center;
+  }
+  .book-service-text-big {
+    font-family: "Cardo, serif";
+    font-size: 2rem;
+    color: $scorpion;
+    position: absolute;
+    top: 12rem;
+    left: 50%;
+    transform: translateX(-50%);
+    width: fit-content;
     text-align: center;
   }
   .container-small {
