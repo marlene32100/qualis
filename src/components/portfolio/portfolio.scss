@@ -68,8 +68,7 @@
       background-color: $ebony;
       overflow: hidden;
       .kitchen-image {
-        object-fit: contain;
-        width: 100%;
+        object-fit: cover;
         height: 100%;
         overflow: hidden;
       }

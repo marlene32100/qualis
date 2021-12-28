@@ -1,0 +1,190 @@
+@import "../../global.scss";
+
+.showcase {
+  transition: all 1s ease-out;
+  .slider {
+    height: 70%;
+    display: flex;
+    position: absolute;
+    transition: all 1s ease-out;
+    left: 0;
+
+    .container {
+      width: 100vw;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+      .item {
+        width: 80%;
+        height: 100%;
+        background-color: $scorpion;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .left {
+          flex: 4;
+          height: 80%;
+          background-color: $scorpion;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          .leftContainer {
+            width: 90%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            .imgContainer {
+              width: 40px;
+              height: 40px;
+              border-radius: 50%;
+              background-color: $mongoose;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              .left-icon {
+                color: $black-squeeze;
+                font-size: 4rem;
+              }
+            }
+            h2 {
+              font-size: 2rem;
+              color: $mongoose;
+              padding: 3rem 0;
+            }
+            p {
+              font-size: 1.4rem;
+              color: $black-squeeze;
+            }
+            span {
+              padding-top: 3rem;
+              font-size: 12px;
+              font-weight: 600;
+              text-decoration: underline;
+              color: $black-squeeze;
+              cursor: pointer;
+            }
+          }
+        }
+        .right {
+          flex: 8;
+          height: 100%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          overflow: hidden;
+          .right-image {
+            height: 100%;
+            object-fit: cover;
+          }
+        }
+      }
+      .small-item {
+        width: 80%;
+        height: 100%;
+        background-color: $scorpion;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+      }
+      .small-right-arrow,
+      .small-left-arrow {
+        font-size: 6rem;
+        color: $mongoose;
+        cursor: pointer;
+        position: absolute;
+      }
+      .small-right-arrow {
+        top: 50%;
+        transform: translateY(-50%);
+        right: 0;
+      }
+      .small-left-arrow {
+        top: 50%;
+        transform: translateY(-50%);
+        left: 0;
+      }
+      .bottom {
+        height: 80%;
+        background-color: $scorpion;
+        display: flex;
+        flex: 4;
+        align-items: center;
+        justify-content: center;
+        .bottomContainer {
+          width: 80%;
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between;
+          .imgContainer {
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            background-color: $mongoose;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            .left-icon {
+              color: $black-squeeze;
+              font-size: 2rem;
+            }
+          }
+          h2 {
+            font-size: 2rem;
+            color: $mongoose;
+            padding: 1rem 0;
+          }
+          p {
+            font-size: 1.4rem;
+            color: $black-squeeze;
+          }
+          span {
+            padding-top: 1rem;
+            font-size: 12px;
+            font-weight: 600;
+            text-decoration: underline;
+            color: $black-squeeze;
+            cursor: pointer;
+          }
+        }
+      }
+      .top {
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        overflow: hidden;
+        flex: 8;
+        .top-image {
+          height: 100%;
+          object-fit: cover;
+        }
+      }
+    }
+  }
+  .right-arrow,
+  .left-arrow {
+    font-size: 6rem;
+    color: $mongoose;
+    cursor: pointer;
+    position: absolute;
+  }
+  .right-arrow {
+    top: 50%;
+    transform: translateY(-50%);
+    right: 6rem;
+  }
+  .left-arrow {
+    top: 50%;
+    transform: translateY(-50%);
+    left: 6rem;
+  }
+  &.active {
+    background-color: $scorpion;
+    .section-title {
+      color: $mongoose;
+    }
+  }
+}
