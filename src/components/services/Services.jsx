@@ -6,7 +6,7 @@ export default function Services({ menuOpen, setMenuOpen }) {
   return (
     <div className={"services " + (menuOpen && "active")} id="services">
       <h2 className="section-title">Services</h2>
-      <MediaQuery minWidth={1224}>
+      <MediaQuery minWidth={992}>
         <div className="container">
           <div className="service">
             <h3 className="service-name">Repurposing kitchen space</h3>
@@ -32,7 +32,7 @@ export default function Services({ menuOpen, setMenuOpen }) {
           </div>
         </div>
       </MediaQuery>
-      <MediaQuery maxWidth={1224}>
+      <MediaQuery maxWidth={992.98}>
         <h3 className="book-service-text">
           Book a top class service to help your restaurant beat your competitors
         </h3>

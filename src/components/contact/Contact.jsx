@@ -8,13 +8,13 @@ export default function Contact() {
   return (
     <div className="contact" id="contact">
       <h2 className="contact-title">Contacts</h2>
-      <MediaQuery minWidth={1224}>
+      <MediaQuery minWidth={768}>
         <div className="worldwide">
           <p>Services are available worldwide </p>
           <LanguageIcon className="world-icon" />
         </div>
       </MediaQuery>
-      <MediaQuery maxWidth={1224}>
+      <MediaQuery maxWidth={767.98}>
         <div className="worldwide-small">
           <p>Services are available worldwide </p>
           <LanguageIcon className="world-icon" />
@@ -39,6 +39,12 @@ export default function Contact() {
 
         <div className="organization">
           <p className="organization-text">Org.Nr. SE830201169001</p>
+        </div>
+
+        <div className="copyright">
+          <p className="copyright-text">
+            Website made by <a href="http://blueblissstudio.com">Blue Bliss</a>
+          </p>
         </div>
       </div>
     </div>

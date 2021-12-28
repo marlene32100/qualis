@@ -9,7 +9,7 @@ import "./intro.scss";
 export default function Intro({ menuOpen, setMenuOpen }) {
   return (
     <div className={"intro " + (menuOpen && "active")} id="intro">
-      <MediaQuery minWidth={1224}>
+      <MediaQuery minWidth={992}>
         <div className="timeline">
           <div className="timeline-item">
             <a href="#portfolio">
@@ -37,7 +37,7 @@ export default function Intro({ menuOpen, setMenuOpen }) {
           and kitchen management <br />
         </p>
       </MediaQuery>
-      <MediaQuery maxWidth={1224}>
+      <MediaQuery maxWidth={991.98}>
         <div className="timeline-small">
           <div className="timeline-item-small">
             <a href="#portfolio">

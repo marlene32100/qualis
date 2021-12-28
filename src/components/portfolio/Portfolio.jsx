@@ -8,7 +8,7 @@ export default function Portfolio({ menuOpen, setMenuOpen }) {
   return (
     <div className={"portfolio " + (menuOpen && "active")} id="portfolio">
       <h2 className="section-title">Build a successful restaurant</h2>
-      <MediaQuery minWidth={1224}>
+      <MediaQuery minWidth={992}>
         <div className="container">
           <div className="left">
             <img
@@ -50,7 +50,7 @@ export default function Portfolio({ menuOpen, setMenuOpen }) {
           </div>
         </div>
       </MediaQuery>
-      <MediaQuery maxWidth={1224}>
+      <MediaQuery maxWidth={991.98}>
         <div className="container-small">
           <div className="top">
             <img
