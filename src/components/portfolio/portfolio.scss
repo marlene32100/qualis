@@ -1,17 +1,34 @@
 @import "../../global.scss";
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.3.6,
+* Autoprefixer: v10.3.1
+* Browsers: last 4 version
+*/
+
 .portfolio {
+  -webkit-transition: all 1s ease;
+  -o-transition: all 1s ease;
   transition: all 1s ease;
   .section-title {
     color: $scorpion;
   }
   .container-small {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
     height: 70%;
     width: 100%;
     .top {
+      -webkit-box-flex: 0.5;
+      -ms-flex: 0.5;
       flex: 0.5;
       .kitchen-image-small {
+        -o-object-fit: cover;
         object-fit: cover;
         width: 100%;
         height: 100%;
@@ -19,6 +36,8 @@
       }
     }
     .bottom {
+      -webkit-box-flex: 0.5;
+      -ms-flex: 0.5;
       flex: 0.5;
       overflow: hidden;
       .intro-description {
@@ -38,12 +57,23 @@
       }
       ul {
         width: 100%;
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
+        -webkit-box-align: start;
+        -ms-flex-align: start;
         align-items: flex-start;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
         flex-direction: column;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
         justify-content: center;
         padding: 1rem 6rem;
         li {
+          -webkit-box-align: start;
+          -ms-flex-align: start;
           align-items: start;
           font-size: 1.4rem;
           line-height: 2rem;
@@ -59,21 +89,28 @@
     }
   }
   .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     height: 70%;
     width: 100%;
 
     .left {
+      -webkit-box-flex: 0.5;
+      -ms-flex: 0.5;
       flex: 0.5;
       background-color: $ebony;
       overflow: hidden;
       .kitchen-image {
+        -o-object-fit: cover;
         object-fit: cover;
         height: 100%;
         overflow: hidden;
       }
     }
     .right {
+      -webkit-box-flex: 0.5;
+      -ms-flex: 0.5;
       flex: 0.5;
       overflow: hidden;
       .intro-description {
@@ -91,12 +128,23 @@
       }
       ul {
         width: 100%;
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
+        -webkit-box-align: start;
+        -ms-flex-align: start;
         align-items: flex-start;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
         flex-direction: column;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
         justify-content: center;
         padding: 1rem 6rem;
         li {
+          -webkit-box-align: start;
+          -ms-flex-align: start;
           align-items: start;
           font-size: 1.6rem;
           line-height: 4rem;

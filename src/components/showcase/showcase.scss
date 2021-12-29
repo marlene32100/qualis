@@ -1,46 +1,92 @@
 @import "../../global.scss";
 
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.3.6,
+* Autoprefixer: v10.3.1
+* Browsers: last 4 version
+*/
+
 .showcase {
+  -webkit-transition: all 1s ease-out;
+  -o-transition: all 1s ease-out;
   transition: all 1s ease-out;
   .slider {
     height: 80%;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     position: absolute;
+    -webkit-transition: all 1s ease-out;
+    -o-transition: all 1s ease-out;
     transition: all 1s ease-out;
     left: 0;
 
     .container {
       width: 100vw;
+      display: -webkit-box;
+      display: -ms-flexbox;
       display: flex;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
       align-items: center;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
       justify-content: center;
       position: relative;
       .item {
         width: 80%;
         height: 100%;
         background-color: $scorpion;
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
         align-items: center;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
         justify-content: center;
         .left {
+          -webkit-box-flex: 4;
+          -ms-flex: 4;
           flex: 4;
           height: 80%;
           background-color: $scorpion;
+          display: -webkit-box;
+          display: -ms-flexbox;
           display: flex;
+          -webkit-box-align: center;
+          -ms-flex-align: center;
           align-items: center;
+          -webkit-box-pack: center;
+          -ms-flex-pack: center;
           justify-content: center;
           .leftContainer {
             width: 90%;
+            display: -webkit-box;
+            display: -ms-flexbox;
             display: flex;
+            -webkit-box-orient: vertical;
+            -webkit-box-direction: normal;
+            -ms-flex-direction: column;
             flex-direction: column;
+            -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
             justify-content: space-between;
             .imgContainer {
               width: 40px;
               height: 40px;
               border-radius: 50%;
               background-color: $mongoose;
+              display: -webkit-box;
+              display: -ms-flexbox;
               display: flex;
+              -webkit-box-align: center;
+              -ms-flex-align: center;
               align-items: center;
+              -webkit-box-pack: center;
+              -ms-flex-pack: center;
               justify-content: center;
               .left-icon {
                 color: $black-squeeze;
@@ -60,6 +106,8 @@
               margin-top: 3rem;
               padding: 1.6rem 3.2rem;
               border: 1px solid $black-squeeze;
+              width: -webkit-fit-content;
+              width: -moz-fit-content;
               width: fit-content;
             }
             span a {
@@ -79,14 +127,23 @@
           }
         }
         .right {
+          -webkit-box-flex: 8;
+          -ms-flex: 8;
           flex: 8;
           height: 100%;
+          display: -webkit-box;
+          display: -ms-flexbox;
           display: flex;
+          -webkit-box-align: center;
+          -ms-flex-align: center;
           align-items: center;
+          -webkit-box-pack: center;
+          -ms-flex-pack: center;
           justify-content: center;
           overflow: hidden;
           .right-image {
             height: 100%;
+            -o-object-fit: cover;
             object-fit: cover;
           }
         }
@@ -95,9 +152,18 @@
         width: 80%;
         height: 100%;
         background-color: $scorpion;
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
         flex-direction: column;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
         align-items: center;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
         justify-content: center;
         position: relative;
       }
@@ -110,33 +176,58 @@
       }
       .small-right-arrow {
         top: 50%;
+        -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
         transform: translateY(-50%);
         right: 0;
       }
       .small-left-arrow {
         top: 50%;
+        -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
         transform: translateY(-50%);
         left: 0;
       }
       .bottom {
         height: 80%;
         background-color: $scorpion;
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
+        -webkit-box-flex: 4;
+        -ms-flex: 4;
         flex: 4;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
         align-items: center;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
         justify-content: center;
         .bottomContainer {
           width: 80%;
+          display: -webkit-box;
+          display: -ms-flexbox;
           display: flex;
+          -webkit-box-orient: vertical;
+          -webkit-box-direction: normal;
+          -ms-flex-direction: column;
           flex-direction: column;
+          -webkit-box-pack: justify;
+          -ms-flex-pack: justify;
           justify-content: space-between;
           .imgContainer {
             width: 20px;
             height: 20px;
             border-radius: 50%;
             background-color: $mongoose;
+            display: -webkit-box;
+            display: -ms-flexbox;
             display: flex;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
             align-items: center;
+            -webkit-box-pack: center;
+            -ms-flex-pack: center;
             justify-content: center;
             .left-icon {
               color: $black-squeeze;
@@ -156,6 +247,8 @@
             margin-top: 1rem;
             padding: 1.6rem 3.2rem;
             border: 1px solid $black-squeeze;
+            width: -webkit-fit-content;
+            width: -moz-fit-content;
             width: fit-content;
           }
           span a {
@@ -176,13 +269,22 @@
       }
       .top {
         height: 100%;
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
         align-items: center;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
         justify-content: center;
         overflow: hidden;
+        -webkit-box-flex: 8;
+        -ms-flex: 8;
         flex: 8;
         .top-image {
           height: 100%;
+          -o-object-fit: cover;
           object-fit: cover;
         }
       }
@@ -197,11 +299,15 @@
   }
   .right-arrow {
     top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
     transform: translateY(-50%);
     right: 6rem;
   }
   .left-arrow {
     top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
     transform: translateY(-50%);
     left: 6rem;
   }

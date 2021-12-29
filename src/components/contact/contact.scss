@@ -1,4 +1,11 @@
 @import "../../global.scss";
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.3.6,
+* Autoprefixer: v10.3.1
+* Browsers: last 4 version
+*/
+
 .contact {
   background-color: $scorpion;
   color: $black-squeeze;
@@ -29,6 +36,8 @@
       display: inline-block;
       text-decoration: none;
       border: 2px solid $mongoose;
+      width: -webkit-fit-content;
+      width: -moz-fit-content;
       width: fit-content;
       padding: 1.6rem 3.2rem;
       font-family: "Cardo", serif;
@@ -56,6 +65,8 @@
     position: absolute;
     top: 12rem;
     left: 50%;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
     transform: translateX(-50%);
     color: $mongoose;
     text-align: center;
@@ -71,11 +82,15 @@
   }
 
   .container {
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
     height: fit-content;
     width: 80rem;
     position: absolute;
     top: 60%;
     left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     border: 2px solid $mongoose;
     address {
@@ -126,6 +141,8 @@
     position: absolute;
     bottom: 1rem;
     left: 50%;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
     transform: translateX(-50%);
     .copyright-text {
       color: $mongoose;

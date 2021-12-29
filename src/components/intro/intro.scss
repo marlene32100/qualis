@@ -1,5 +1,14 @@
 @import "../../global.scss";
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.3.6,
+* Autoprefixer: v10.3.1
+* Browsers: last 4 version
+*/
+
 .intro {
+  -webkit-transition: all 1s ease;
+  -o-transition: all 1s ease;
   transition: all 1s ease;
   position: relative;
   .intro-text {
@@ -26,6 +35,8 @@
     margin-top: 10rem;
     margin-right: 6rem;
     margin-left: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     overflow: visible;
   }
@@ -35,6 +46,8 @@
     margin-top: 10rem;
     margin-right: auto;
     margin-left: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     overflow: visible;
   }
@@ -49,6 +62,8 @@
   }
   .timeline-item {
     position: relative;
+    -webkit-box-flex: 4;
+    -ms-flex: 4;
     flex: 4;
     padding-left: 2rem;
     h3 {
@@ -63,6 +78,8 @@
   }
   .timeline-item-small {
     position: relative;
+    -webkit-box-flex: 4;
+    -ms-flex: 4;
     flex: 4;
     h3 {
       display: inline;
@@ -93,15 +110,21 @@
     position: absolute;
     top: 30%;
     left: 1rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     .premium-icon {
       color: $mongoose;
       font-size: 10rem;
       display: inline;
       vertical-align: bottom;
+      -webkit-box-flex: 0.3;
+      -ms-flex: 0.3;
       flex: 0.3;
     }
     .cta-small-text {
+      -webkit-box-flex: 0.7;
+      -ms-flex: 0.7;
       flex: 0.7;
       font-family: "Cardo", serif;
       font-size: 1.4rem;
