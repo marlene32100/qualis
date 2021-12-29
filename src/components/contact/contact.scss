@@ -6,7 +6,7 @@
   .contact-title {
     font-size: 3rem;
     padding-top: 6rem;
-    padding-bottom: 6rem;
+    padding-bottom: 3rem;
     text-align: center;
     font-family: "Josefin Sans", sans-serif;
     font-weight: 400;
@@ -24,6 +24,31 @@
     .world-icon {
       display: inline-block;
       margin-left: 1rem;
+    }
+    .book-button {
+      display: inline-block;
+      text-decoration: none;
+      border: 2px solid $mongoose;
+      width: fit-content;
+      padding: 1.6rem 3.2rem;
+      font-family: "Cardo", serif;
+      text-transform: uppercase;
+      font-size: 1.6rem;
+      color: $black-squeeze;
+      .book-icon {
+        color: $mongoose;
+        padding-left: 1rem;
+        vertical-align: middle;
+        font-size: 3rem;
+      }
+    }
+    .book-button:hover {
+      border: 2px solid $black-squeeze;
+      background-color: $mongoose;
+      color: $black-squeeze;
+      .book-icon {
+        color: inherit;
+      }
     }
   }
 
@@ -46,7 +71,7 @@
   }
 
   .container {
-    height: 40rem;
+    height: 38rem;
     width: 80rem;
     position: absolute;
     top: 60%;
@@ -68,9 +93,12 @@
         color: $black-squeeze;
         text-align: center;
         font-size: 1.6rem;
-        .phone-contact-icon {
-          margin-right: 1rem;
-          vertical-align: bottom;
+        .phone-contact-icon,
+        .email-icon {
+          vertical-align: middle;
+          padding-right: 1rem;
+          font-size: 3rem;
+          color: $mongoose;
         }
       }
     }

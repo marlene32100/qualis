@@ -1,7 +1,8 @@
 import React from "react";
 import MediaQuery from "react-responsive";
 import PhoneIcon from "@mui/icons-material/Phone";
-import LanguageIcon from "@mui/icons-material/Language";
+import HeadsetMicIcon from "@mui/icons-material/HeadsetMic";
+import MailOutlineIcon from "@mui/icons-material/MailOutline";
 import "./contact.scss";
 
 export default function Contact() {
@@ -10,14 +11,24 @@ export default function Contact() {
       <h2 className="contact-title">Contacts</h2>
       <MediaQuery minWidth={768}>
         <div className="worldwide">
-          <p>Services are available worldwide </p>
-          <LanguageIcon className="world-icon" />
+          <a
+            href="https://calendly.com/qualisitalica/first-consultation-free"
+            className="book-button"
+          >
+            Book a Free Consultation
+            <HeadsetMicIcon className="book-icon" />
+          </a>
         </div>
       </MediaQuery>
       <MediaQuery maxWidth={767.98}>
-        <div className="worldwide-small">
-          <p>Services are available worldwide </p>
-          <LanguageIcon className="world-icon" />
+        <div className="worldwide">
+          <a
+            href="https://calendly.com/qualisitalica/first-consultation-free"
+            className="book-button"
+          >
+            Book a Free Consultation
+            <HeadsetMicIcon className="book-icon" />
+          </a>
         </div>
       </MediaQuery>
 
@@ -29,11 +40,16 @@ export default function Contact() {
         </address>
         <div className="phone-area">
           <p>
-            Call for info / consulting: <br />
+            Phone: <br />
           </p>
           <a href="tel:+46764019750" className="phonenumber">
             <PhoneIcon className="phone-contact-icon" />
             +46 764 019 750
+          </a>
+          <p>Mail:</p>
+          <a href="mailto:qualisitalica@gmail.com" className="email">
+            <MailOutlineIcon className="email-icon" />
+            qualisitalica@gmail.com
           </a>
         </div>
 
