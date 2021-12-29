@@ -71,7 +71,7 @@
   }
 
   .container {
-    height: 38rem;
+    height: fit-content;
     width: 80rem;
     position: absolute;
     top: 60%;
@@ -79,13 +79,12 @@
     transform: translate(-50%, -50%);
     border: 2px solid $mongoose;
     address {
-      margin-top: 6rem;
+      margin-top: 1rem;
       font-size: 1.6rem;
       font-family: "Cardo", serif;
       text-align: center;
     }
     .phone-area {
-      padding-top: 6rem;
       margin: auto;
       text-align: center;
       a {
@@ -105,22 +104,36 @@
     .organization {
       position: relative;
       text-align: center;
+      padding-bottom: 1rem;
       .organization-text {
-        margin-top: 6rem;
         color: $black-squeeze;
       }
     }
-    .copyright {
-      text-align: center;
-      margin-top: 6rem;
-      .copyright-text {
-        color: $mongoose;
-        font-size: 1.2rem;
-        font-style: italic;
-        a {
-          color: inherit;
-          text-decoration: none;
-        }
+
+    hr {
+      border: 0;
+      height: 1px;
+      width: 40%;
+      position: relative;
+      margin: 15px auto;
+      &.center-diamond {
+        background-color: $mongoose;
+      }
+    }
+  }
+  .copyright {
+    text-align: center;
+    position: absolute;
+    bottom: 1rem;
+    left: 50%;
+    transform: translateX(-50%);
+    .copyright-text {
+      color: $mongoose;
+      font-size: 1.2rem;
+      font-style: italic;
+      a {
+        color: inherit;
+        text-decoration: none;
       }
     }
   }

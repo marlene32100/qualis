@@ -38,6 +38,7 @@ export default function Contact() {
           74147 Knivsta, <br />
           Sweden <br />
         </address>
+        <hr className="center-diamond" />
         <div className="phone-area">
           <p>
             Phone: <br />
@@ -52,16 +53,15 @@ export default function Contact() {
             qualisitalica@gmail.com
           </a>
         </div>
-
+        <hr className="center-diamond" />
         <div className="organization">
           <p className="organization-text">Org.Nr. SE830201169001</p>
         </div>
-
-        <div className="copyright">
-          <p className="copyright-text">
-            Website made by <a href="http://blueblissstudio.com">Blue Bliss</a>
-          </p>
-        </div>
+      </div>
+      <div className="copyright">
+        <p className="copyright-text">
+          Website made by <a href="http://blueblissstudio.com">Blue Bliss</a>
+        </p>
       </div>
     </div>
   );
