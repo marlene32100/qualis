@@ -12,7 +12,7 @@
   -o-transition: all 1s ease-out;
   transition: all 1s ease-out;
   .slider {
-    height: 80%;
+    height: 75%;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -179,14 +179,14 @@
         -webkit-transform: translateY(-50%);
         -ms-transform: translateY(-50%);
         transform: translateY(-50%);
-        right: 0;
+        right: -1rem;
       }
       .small-left-arrow {
         top: 50%;
         -webkit-transform: translateY(-50%);
         -ms-transform: translateY(-50%);
         transform: translateY(-50%);
-        left: 0;
+        left: -1rem;
       }
       .bottom {
         height: 80%;
@@ -194,9 +194,9 @@
         display: -webkit-box;
         display: -ms-flexbox;
         display: flex;
-        -webkit-box-flex: 4;
-        -ms-flex: 4;
-        flex: 4;
+        -webkit-box-flex: 6;
+        -ms-flex: 6;
+        flex: 6;
         -webkit-box-align: center;
         -ms-flex-align: center;
         align-items: center;
@@ -244,7 +244,7 @@
             color: $black-squeeze;
           }
           span {
-            margin-top: 1rem;
+            margin-top: 0.5rem;
             padding: 1.6rem 3.2rem;
             border: 1px solid $black-squeeze;
             width: -webkit-fit-content;
@@ -272,18 +272,12 @@
         display: -webkit-box;
         display: -ms-flexbox;
         display: flex;
-        -webkit-box-align: center;
-        -ms-flex-align: center;
-        align-items: center;
-        -webkit-box-pack: center;
-        -ms-flex-pack: center;
-        justify-content: center;
         overflow: hidden;
-        -webkit-box-flex: 8;
-        -ms-flex: 8;
-        flex: 8;
+        -webkit-box-flex: 6;
+        -ms-flex: 6;
+        flex: 6;
         .top-image {
-          height: 100%;
+          width: 100%;
           -o-object-fit: cover;
           object-fit: cover;
         }

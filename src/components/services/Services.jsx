@@ -47,7 +47,7 @@ export default function Services({ menuOpen, setMenuOpen }) {
           </div>
           <div className="service-small">
             <h3 className="service-small-name">
-              Plan kitchen area from the ground up
+              Plan kitchen from the ground up
             </h3>
           </div>
           <div className="service-small">
