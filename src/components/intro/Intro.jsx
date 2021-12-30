@@ -37,45 +37,8 @@ export default function Intro({ menuOpen, setMenuOpen }) {
           and kitchen management <br />
         </p>
       </MediaQuery>
-      <MediaQuery minWidth={367}>
-        <div className="timeline-small">
-          <div className="timeline-item-small">
-            <a href="#portfolio">
-              <ArchitectureIcon className="timeline-icon" />
-              <h3>Plan</h3>
-            </a>
-          </div>
-          <div className="timeline-item-small">
-            <a href="#services">
-              <BuildIcon className="timeline-icon" />
-              <h3>Build</h3>
-            </a>
-          </div>
-          <div className="timeline-item-small">
-            <a href="#contact">
-              <MonetizationOnIcon className="timeline-icon" />
-              <h3>Succeed</h3>
-            </a>
-          </div>
-        </div>
-        <div className="cta-small">
-          <WorkspacePremiumIcon className="premium-icon" />
-          <p className="cta-small-text">
-            Let Qualis Italica plan for you a fully functional kitchen space in
-            your restaurant.
-            <br />
-            <br />
-            Destined to win!
-          </p>
-        </div>
-        <p className="intro-text-small">
-          More than 15 <br />
-          years of expertise <br />
-          with restaurants <br />
-          and kitchen management <br />
-        </p>
-      </MediaQuery>
-      <MediaQuery maxWidth={366}>
+
+      <MediaQuery maxWidth={991.98}>
         <div className="timeline-smaller">
           <div className="timeline-item-smaller">
             <a href="#portfolio">
