@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.c524b558.css",
-    "main.js": "/static/js/main.5805e6c9.js",
+    "main.css": "/static/css/main.5537b29d.css",
+    "main.js": "/static/js/main.b8a862fb.js",
     "static/js/787.7b97a547.chunk.js": "/static/js/787.7b97a547.chunk.js",
     "static/media/service.jpeg": "/static/media/service.1cfed8739a1f44b35706.jpeg",
     "static/media/build.jpeg": "/static/media/build.a861c6f802fa80900fa5.jpeg",
@@ -11,12 +11,12 @@
     "static/media/kitchen_small.jpg": "/static/media/kitchen_small.bc5d15b163889a11056f.jpg",
     "static/media/qualis_logo.jpg": "/static/media/qualis_logo.08a8fbbc18def3dfa8e4.jpg",
     "index.html": "/index.html",
-    "main.c524b558.css.map": "/static/css/main.c524b558.css.map",
-    "main.5805e6c9.js.map": "/static/js/main.5805e6c9.js.map",
+    "main.5537b29d.css.map": "/static/css/main.5537b29d.css.map",
+    "main.b8a862fb.js.map": "/static/js/main.b8a862fb.js.map",
     "787.7b97a547.chunk.js.map": "/static/js/787.7b97a547.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c524b558.css",
-    "static/js/main.5805e6c9.js"
+    "static/css/main.5537b29d.css",
+    "static/js/main.b8a862fb.js"
   ]
 }
