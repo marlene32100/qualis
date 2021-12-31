@@ -32,3 +32,10 @@
 .phone-icon:hover {
   color: $mongoose;
 }
+
+@media screen and (max-width: 380px) {
+  .phone-container {
+    bottom: 1rem;
+    right: 1rem;
+  }
+}

@@ -155,3 +155,36 @@
     }
   }
 }
+
+@media screen and (max-width: 380px) {
+  .contact .container {
+    border: none;
+  }
+  .contact .contact-title {
+    font-size: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+  .contact .worldwide .book-button {
+    background-color: $mongoose;
+    border: 2px solid $black-squeeze;
+    padding: 1.6rem;
+  }
+
+  .contact .worldwide .book-button .book-icon {
+    color: $black-squeeze;
+  }
+
+  .contact .container address {
+    font-size: 1.2rem;
+  }
+
+  .contact .container .phone-area p,
+  .contact .container .phone-area a {
+    font-size: 1.2rem;
+  }
+
+  .contact .container .organization .organization-text {
+    font-size: 1.2rem;
+  }
+}

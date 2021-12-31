@@ -165,3 +165,23 @@
     }
   }
 }
+
+@media screen and (max-width: 380px) {
+  .portfolio {
+    .container-small {
+      .bottom {
+        .intro-description {
+          display: none;
+        }
+      }
+    }
+  }
+
+  .portfolio .container-small .top {
+    overflow: hidden;
+  }
+
+  .portfolio .container-small .bottom .intro-list {
+    padding-top: 1rem;
+  }
+}

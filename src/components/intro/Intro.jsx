@@ -37,7 +37,7 @@ export default function Intro({ menuOpen, setMenuOpen }) {
           and kitchen management <br />
         </p>
       </MediaQuery>
-      <MediaQuery minWidth={368} maxWidth={991.98}>
+      <MediaQuery minWidth={380} maxWidth={991.98}>
         <div className="timeline-small">
           <div className="timeline-item-small">
             <a href="#portfolio">
@@ -75,7 +75,7 @@ export default function Intro({ menuOpen, setMenuOpen }) {
           and kitchen management <br />
         </p>
       </MediaQuery>
-      <MediaQuery maxWidth={367}>
+      <MediaQuery maxWidth={379.98}>
         <div className="timeline-smaller">
           <div className="timeline-item-smaller">
             <a href="#portfolio">

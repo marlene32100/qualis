@@ -312,3 +312,15 @@
     }
   }
 }
+
+@media screen and (max-width: 380px) {
+  .showcase {
+    .slider {
+      .container {
+        .top {
+          flex: 0;
+        }
+      }
+    }
+  }
+}

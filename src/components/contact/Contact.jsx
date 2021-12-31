@@ -26,7 +26,7 @@ export default function Contact() {
             href="https://calendly.com/qualisitalica/first-consultation-free"
             className="book-button"
           >
-            Book a Free Consultation
+            Free Consultation
             <HeadsetMicIcon className="book-icon" />
           </a>
         </div>

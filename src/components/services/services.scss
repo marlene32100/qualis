@@ -127,3 +127,13 @@
     }
   }
 }
+
+@media screen and (max-width: 380px) {
+  .services .container-small {
+    top: 50%;
+  }
+
+  .services .book-service-text {
+    display: none;
+  }
+}

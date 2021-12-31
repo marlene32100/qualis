@@ -26,3 +26,16 @@ p {
   text-transform: uppercase;
   color: #565656;
 }
+
+@media screen and (max-width: 380px) {
+  .section-title {
+    font-size: 2rem;
+    padding-top: 3rem;
+    padding-bottom: 1.5rem;
+    text-align: center;
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #565656;
+  }
+}
